@@ -1,0 +1,8 @@
+pynumber: 2
+
+create a numpy array of  8x2 as having number  in each cell between 100 and 200 such that difference between each element is 5  
+solution:import numpy
+import numpy as np
+array=np.arange(100,200,5)
+a=array[0:16].reshape(8,2)
+print(a)
